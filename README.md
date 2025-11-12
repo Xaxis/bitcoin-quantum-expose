@@ -96,3 +96,28 @@ There is a temptation to say that preparing for quantum is anti Bitcoin because 
 Quantum does not erase proof of work. It does not let someone mine blocks from thin air or pull a time machine trick on the ledger. It attacks one assumption that we can swap out with careful engineering. When the day comes that a real machine exists, the first people to get hurt will be those sitting on very old outputs that exposed public keys years ago. The next wave would be the mempool race once runtimes shrink. The community’s job is to make both outcomes boring by moving early, and by giving users a better default before it feels urgent.
 
 If you want a single sentence to carry around, use this. Signatures are the only fire door that needs replacing. We know how to build the new door. Let’s built it and install it while the building is quiet.
+
+---
+
+## Resources and further discussions
+
+For the sake of keeping this article short I didn't dive deep into every nuance but I wanted to provide a few reources I've been building and tracking.
+
+### Publicly known quantum computers
+
+| System | Tech | Physical qubits | Logical qubits | Year | Source |
+|---|---|---:|---:|---:|---|
+| IBM — Condor (Quantum System Two / Condor chip) | Superconducting transmons | 1,121 | — | 2023–2024 | IBM Research press/annual updates |
+| Google — Willow | Superconducting transmons | 105 | 1 logical memory demo | 2024 | Google Quantum AI blog and Willow spec |
+| Quantinuum — H2-1 | Trapped ions (Ba⁺) | 56 | 12 logical via Azure “virtualization” | 2024 | Quantinuum posts and Microsoft Azure blog |
+| Quantinuum — Helios | Trapped ions (Ba⁺), QCCD | 98 | Not publicly stated | 2025 | Quantinuum Helios benchmarking |
+| Atom Computing — AC1000 | Neutral atoms (¹⁷¹Yb) | 1,200+ | Not disclosed | 2025 | Atom Computing product page |
+| IonQ — Tempo | Trapped ions | 100 (target) | Not disclosed | 2025 | IonQ Tempo page and roadmap |
+| IonQ — Forte / Forte Enterprise | Trapped ions | 36 | Not disclosed | 2022–2025 | IonQ system pages, AWS Braket |
+| Rigetti — Ankaa-3 | Superconducting | 84 | — | 2024 | Rigetti announcement |
+| QuEra — Aquila | Neutral atoms (analog/FPQA) | 256 | — | 2022 | QuEra site and arXiv paper |
+| Xanadu — Borealis | Photonic (Gaussian boson sampling) | 216 | — | 2022 | Nature paper and company refs |
+| D-Wave — Advantage2 (annealer) | Quantum annealing, superconducting | 4,400+ | — | 2025 | D-Wave press materials |
+
+
+
